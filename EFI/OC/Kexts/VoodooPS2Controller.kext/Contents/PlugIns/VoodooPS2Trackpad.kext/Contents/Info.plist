@@ -385,6 +385,8 @@
 				</dict>
 				<key>LENOVO</key>
 				<dict>
+					<key>X270</key>
+					<string>Thinkpad_ClickPad</string>
 					<key>T420</key>
 					<string>Thinkpad_TrackPad</string>
 					<key>T460</key>
@@ -393,12 +395,26 @@
 					<string>Thinkpad_ClickPad</string>
 					<key>Thinkpad_ClickPad</key>
 					<dict>
+						<key>BogusDeltaThreshX</key>
+						<integer>100</integer>
+						<key>BogusDeltaThreshY</key>
+						<integer>100</integer>
+						<key>Clicking</key>
+						<true/>
+						<key>DragLockTempMask</key>
+						<integer>262148</integer>
+						<key>DynamicEWMode</key>
+						<false/>
+						<key>EdgeBottom</key>
+						<integer>0</integer>
 						<key>FakeMiddleButton</key>
 						<false/>
 						<key>FingerZ</key>
 						<integer>30</integer>
 						<key>HWResetOnStart</key>
 						<true/>
+						<key>MaxTapTime</key>
+						<integer>100000000</integer>
 						<key>MouseMultiplierX</key>
 						<integer>2</integer>
 						<key>MouseMultiplierY</key>
@@ -407,9 +423,15 @@
 						<integer>2</integer>
 						<key>MouseScrollMultiplierY</key>
 						<integer>2</integer>
+						<key>PalmNoAction When Typing</key>
+						<true/>
 						<key>ScrollResolution</key>
 						<integer>800</integer>
+						<key>SmoothInput</key>
+						<true/>
 						<key>Thinkpad</key>
+						<true/>
+						<key>UnsmoothInput</key>
 						<true/>
 					</dict>
 					<key>Thinkpad_TrackPad</key>
